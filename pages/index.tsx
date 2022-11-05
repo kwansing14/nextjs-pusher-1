@@ -10,17 +10,17 @@ const Home: NextPage = () => {
     setCount([...count, count[count.length - 1] + 1]);
   };
 
-  const pusherFunc = () =>{ 
-    Pusher.logToConsole = true;
+  // const pusherFunc = () =>{
+  //   Pusher.logToConsole = true;
 
-    const pusher = newPusher('key', options {
-      custer: 'eu'
-    })
-  }
+  //   const pusher = newPusher('key', options {
+  //     custer: 'eu'
+  //   })
+  // }
 
-  useEffect(()=>{
-    pusherFunc()
-  },[])
+  // useEffect(() => {
+  //   pusherFunc();
+  // }, []);
 
   return (
     <div>
